@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<license id="bosch-sdk-license" type="text">Your Bosch license text here...</license>
+
+<remotePackage path="system-images;android-34;android-automotive;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+        <api-level>34</api-level>
+        <tag>
+            <id>android-automotive</id>
+            <display>Android Automotive-ECB</display>
+        </tag>
+        <vendor>
+            <id>bosch</id>
+            <display>Robert Bosch</display>
+        </vendor>
+        <abi>x86_64</abi>
+    </type-details>
+    <revision>
+        <major>1</major>
+        <minor>0</minor>
+        <micro>0</micro>
+    </revision>
+    <display-name>Android Automotive with Bosch APIs x86_64 System Image</display-name>
+    <uses-license ref="bosch-sdk-license"/>
+    <archives>
+        <archive>
+            <complete>
+                <size>817455771</size>
+                <checksum>b6f5aa2b50d225e3216c3d870d4d365d7d0a04be</checksum>
+                <url><![CDATA[https://bosch-my.sharepoint.com/personal/kno1bg_bosch_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fkno1bg%5Fbosch%5Fcom%2FDocuments%2Fsdk%2Drepo%2Dlinux%2Dsystem%2Dimages%2Deng%2Ekno1bg%2Ezip]]></url>
+            </complete>
+        </archive>
+    </archives>
+</remotePackage>
+
+
+
+</sys-img:sdk-sys-img>
